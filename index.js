@@ -18,4 +18,4 @@ app.get('/',function(req,res){
   res.render('layout', { title: 'Node.js / Google Maps Example', subtitle: 'with the help of the Express, Path, and Jade modules' });
 });
 
-app.listen(8080)
+app.listen(process.env.PORT || 8080)
