@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-googlemaps-example",
+  "version": "1.0.0",
+  "description": "A simple example of a Node.js/GoogleMap webapp",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelck/nodejs-googlemaps-example.git"
+  },
+  "author": "MichaelCK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaelck/nodejs-googlemaps-example/issues"
+  },
+  "dependencies": {
+    "express": ">=4.13",
+    "jade": "1.11.0"
+  },
+  "homepage": "https://github.com/michaelck/nodejs-googlemaps-example#readme",
+  "devDependencies": {
+    "compression": "^1.7.1"
+  }
+}

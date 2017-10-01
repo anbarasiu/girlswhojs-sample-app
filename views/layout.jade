@@ -1,0 +1,100 @@
+doctype html
+html
+    head
+        title= title
+        link(rel='stylesheet', href='/stylesheets/semantic.css')
+        link(rel='stylesheet', href='/components/reset.css')
+        link(rel='stylesheet', href='/components/site.css')
+        link(rel='stylesheet', href='/components/container.css')
+        link(rel='stylesheet', href='/components/grid.css')
+        link(rel='stylesheet', href='/components/header.css')
+        link(rel='stylesheet', href='/components/image.css')
+        link(rel='stylesheet', href='/components/menu.css')
+        link(rel='stylesheet', href='/components/divider.css')
+        link(rel='stylesheet', href='/components/dropdown.css')
+        link(rel='stylesheet', href='/components/segment.css')
+        link(rel='stylesheet', href='/components/button.css')
+        link(rel='stylesheet', href='/components/list.css')
+        link(rel='stylesheet', href='/components/icon.css')
+        link(rel='stylesheet', href='/components/sidebar.css')
+        link(rel='stylesheet', href='/components/transition.css')
+        link(rel='stylesheet', href='/stylesheets/style.css')
+
+    body
+        .pusher
+            .ui.inverted.vertical.masthead.center.aligned.segment
+                .ui.container
+                .ui.large.secondary.inverted.pointing.menu
+                    a.toc.item
+                    a.active.item Home
+                    a.item Work
+                    a.item Company
+                    a.item Careers
+                    .right.item
+                    a.ui.inverted.button Log in
+                    a.ui.inverted.button Sign Up
+                .ui.text.container
+                h1.ui.inverted.header
+                    | GirlsWhoJS
+                h2 Check out maps of below categories of great shops in Philadelphia.
+                <a href="coffee">
+                .ui.huge.primary.button
+                    | Coffee
+                    i.right.arrow.icon
+                </a>
+                <a href="pizza">
+                .ui.huge.primary.button
+                    | Pizza
+                    i.right.arrow.icon
+                </a>
+            .ui.vertical.stripe.segment
+                .ui.middle.aligned.stackable.grid.container
+                .row
+                    .eight.wide.column
+                    h3.ui.header Lorem Ipsum
+                    p
+                        | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere urna sed dictum sagittis. Donec commodo ornare nulla, non sodales nulla suscipit tempor.
+                    h3.ui.header Lorem Ipsum
+                    p
+                        | orem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere urna sed dictum sagittis. Donec commodo ornare nulla, non sodales nulla suscipit tempor.
+                    .six.wide.right.floated.column
+                    img.ui.large.bordered.rounded.image(src='assets/images/wireframe/white-image.png')
+                .row
+                    .center.aligned.column
+                    a.ui.huge.button Check Them Out
+            .ui.vertical.stripe.segment
+                .ui.text.container
+                h3.ui.header Breaking The Grid, Grabs Your Attention
+                p
+                    | orem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere urna sed dictum sagittis. Donec commodo ornare nulla, non sodales nulla suscipit tempor.
+                a.ui.large.button Read More
+                h4.ui.horizontal.header.divider
+                    a(href='#') Case Studies
+                h3.ui.header Did We Tell You About Our Bananas?
+                p
+                    | orem ipsum dolor sit amet, consectetur adipiscing elit. Sed posuere urna sed dictum sagittis. Donec commodo ornare nulla, non sodales nulla suscipit tempor.
+            .ui.inverted.vertical.footer.segment
+                .ui.container
+                .ui.stackable.inverted.divided.equal.height.stackable.grid
+                    .three.wide.column
+                    h4.ui.inverted.header About
+                    .ui.inverted.link.list
+                        a.item(href='#') Sitemap
+                        a.item(href='#') Contact Us
+                        a.item(href='#') Religious Ceremonies
+                        a.item(href='#') Gazebo Plans
+                    .three.wide.column
+                    h4.ui.inverted.header Services
+                    .ui.inverted.link.list
+                        a.item(href='#') Banana Pre-Order
+                        a.item(href='#') DNA FAQ
+                        a.item(href='#') How To Access
+                        a.item(href='#') Favorite X-Men
+                    .seven.wide.column
+
+        #map_canvas
+
+        script(src='http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js')
+        script(src='/javascripts/semantic.js')
+        script(src='https://maps.googleapis.com/maps/api/js?&sensor=false')
+        block content

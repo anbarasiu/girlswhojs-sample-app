@@ -1,0 +1,16 @@
+html,body,#map_canvas{
+	height: 100%;
+}
+header {
+	padding: 10px 10px;
+}
+
+.masthead {
+	height: 600px;
+	background-image: url('../images/bg-image.jpeg') !important;
+	background-size: contain !important;
+}
+
+h2 {
+	margin: 100px 0;
+}

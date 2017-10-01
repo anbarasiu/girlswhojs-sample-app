@@ -1,0 +1,48 @@
+[
+	{
+		"shopname": "GianFranco Pizza Rustica",
+		"location":{
+			"type": "Point",
+			"coordinates": [39.950422,-75.145714]
+		},
+		"details": "Great pizza.",
+		"website": "http://www.yelp.com/biz/gianfranco-pizza-rustica-philadelphia"
+	},
+	{
+		"shopname": "Pizza Brain",
+		"location":{
+			"type": "Point",
+			"coordinates": [39.9806787,-75.1281287]
+		},
+		"details": "Pizza Museum with huge slices.",
+		"website": "http://www.pizzabrain.org/"
+	},
+	{
+		"shopname": "Francoluigi's Pizzeria",
+		"location":{
+			"type": "Point",
+			"coordinates": [39.9302688,-75.1660198]
+		},
+		"details": "Huge pizzas.",
+		"website": "http://www.francoluigis.com/"
+	},
+	{
+		"shopname": "Franco's Pizza",
+		"location":{
+			"type": "Point",
+			"coordinates": [39.982066,-75.1216018]
+		},
+		"details": "Solid pizzas.",
+		"website": "http://www.francospizzaplace.com/"
+	},
+	{
+		"shopname": "Pizzeria Beddia",
+		"location":{
+			"type": "Point",
+			"coordinates": [39.9692001,-75.133916]
+		},
+		"details": "Nationally recognized pizza shop. Get there early.",
+		"website": "https://pizzeriabeddia.wordpress.com/"
+	}
+
+]
