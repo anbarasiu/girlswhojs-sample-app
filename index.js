@@ -1,5 +1,5 @@
 var express = require('express'),
-    // compression = require('compression'),
+    compression = require('compression'),
     path = require('path'),
     jade = require('jade'),
     coffee = require('./routes/coffee'),
@@ -9,7 +9,7 @@ var app = new express();
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
-// app.use(compression());
+app.use(compression());
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/coffee', coffee);
 app.use('/pizza', pizza);
