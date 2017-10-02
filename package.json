@@ -17,8 +17,8 @@
   },
   "dependencies": {
     "express": ">=4.13",
-    "jade": "1.11.0"
     "compression": "^1.7.1",
+    "jade": "1.11.0"
   },
   "homepage": "https://github.com/michaelck/nodejs-googlemaps-example#readme",
   "devDependencies": {
