@@ -16,10 +16,9 @@
     "url": "https://github.com/michaelck/nodejs-googlemaps-example/issues"
   },
   "dependencies": {
+    "express": ">=4.13",
     "compression": "^1.7.1",
-    "express": "^4.16.1",
-    "jade": "1.11.0",
-    "spdy": "^3.4.7"
+    "jade": "1.11.0"
   },
   "homepage": "https://github.com/michaelck/nodejs-googlemaps-example#readme",
   "devDependencies": {
