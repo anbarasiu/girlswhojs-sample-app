@@ -2,6 +2,15 @@ doctype html
 html
     head
         title= title
+        style(type='text/css').
+            .masthead {
+                height: 600px;
+                background-image: url('../images/bg-image-min.jpeg') !important;
+                background-size: contain !important;
+            }
+        link(rel='preconnect', href='https://girlswhojs.herokuapp.com')
+        link(rel='preload', as='font', type='font/woff', href='/fonts/icons.woff2')
+        link(rel='preload', as='image', href='/images/bg-image-min.jpeg')
         link(rel='stylesheet', href='/stylesheets/semantic.css')
         link(rel='stylesheet', href='/components/reset.css')
         link(rel='stylesheet', href='/components/site.css')
@@ -93,7 +102,7 @@ html
 
         #map_canvas
 
-        script(src='https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js')
-        script(src='/javascripts/semantic.js')
-        script(src='https://maps.googleapis.com/maps/api/js?&key=AIzaSyC5kgVtsX9_WAWV-4Vzp77gs9mxs9hsE7o')
+        script(defer, src='https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js')
+        script(defer, src='/javascripts/semantic.js')
+        script(async, src='https://maps.googleapis.com/maps/api/js?&key=AIzaSyC5kgVtsX9_WAWV-4Vzp77gs9mxs9hsE7o')
         block content

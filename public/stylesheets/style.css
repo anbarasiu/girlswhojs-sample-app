@@ -5,12 +5,6 @@ header {
 	padding: 10px 10px;
 }
 
-.masthead {
-	height: 600px;
-	background-image: url('../images/bg-image-min.jpeg') !important;
-	background-size: contain !important;
-}
-
 h2 {
 	margin: 100px 0;
 }
